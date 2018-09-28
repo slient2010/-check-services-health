@@ -1,0 +1,22 @@
+{
+	"Notes": "配置备注说明, CheckTickTime为健康检查的频度",
+	"CheckTickTime": 60,
+	"MySQL": {
+		"DbHost": "127.0.0.1",
+		"DbUser": "devops",
+		"DbPass": "devops",
+		"DbName": "devops",
+		"Charset": "utf8",
+		"DbPort": 3306,
+		"DbDebug": false,
+		"Notes": "mysql备注说明"
+	},
+	"InfluxDb": {
+		"DbUrl"     : "http://127.0.0.1:8086",
+		"DbName"    : "srvStatus",
+		"Username"  : "devops",
+		"Password"  : "devops",
+		"Precision" : "s",
+		"Notes": "influxdb备注说明"
+	}
+}
